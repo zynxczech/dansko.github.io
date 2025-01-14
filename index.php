@@ -7,27 +7,6 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <?php
-        include "header.php";
-        ?>
-    </header>
-    <main>
-        <?php
-        if(isset($_GET["strana"])) {
-            $strana = $_GET["strana"];
-            include "$strana.php";
-            echo "<title>$stranky[$strana]</title>";
-        } else {
-            include "uvod.php";
-            echo "<title>ČAJ - lahodný nápoj</title>";
-        }
-        ?>
-    </main>
-    <footer>
-        <?php
-        include "footer.php";
-        ?>
-    </footer>
+    <a>DHSDV<a>
 </body>
 </html>
